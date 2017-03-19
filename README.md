@@ -1,7 +1,8 @@
 # usermanual.pdf
 
 ![yesno](imgs/yeno.png)
- [Benjamin Patterson. Questionnaire from Flux Year Box 2. c.1968]
+
+[Benjamin Patterson. Questionnaire from Flux Year Box 2. c.1968]
 
 #### What?
 Generate a pdf file with a set of instructions detailing a description of your daily activity. A usermanual.pdf to other users to be a user user.
