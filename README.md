@@ -1,11 +1,11 @@
 # usermanual.pdf
 
-![yesno](imgs/yeno.png)
 
-[Benjamin Patterson. Questionnaire from Flux Year Box 2. c.1968]
+<div style="text-align:center"><img src ="imgs/yeno.png" style="max-width:400px;" /></div>
+<p style="text-align:center;font-size:10px;">[Benjamin Patterson. Questionnaire from Flux Year Box 2. c.1968]</p>
 
 #### What?
-Generate a pdf file with a set of instructions detailing a description of your daily activity. A usermanual.pdf to other users to be a user user.
+Generate a pdf file with a set of instructions detailing a description of your daily screen activity. Basically a usermanual.pdf so other users can get to be a user.
 
 
 #### Install

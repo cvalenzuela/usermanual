@@ -156,7 +156,7 @@ text = '''
 
   <div class="icons">
     <img class="icon" src="./imgs/user.png" />
-    <p> User John Doe x1 </p>
+    <p> User ''' + user + ''' x1 </p>
   </div>
 </div>
 
