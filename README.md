@@ -27,3 +27,5 @@ Generate a pdf file with a set of instructions detailing a description of your d
 - Canon Rebel T3i Manual
 
 #### Demo
+
+[Demo](demo/userusermanual.pdf)
