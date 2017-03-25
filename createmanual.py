@@ -1,13 +1,15 @@
-# Creates a manual.pdf based on data logs of ulogme
-# cristobalvalenzuela
 
+# coding: utf-8
 from random import choice, randint
 import re
 import getpass
+import os
 
 user = str(getpass.getuser())
-raw_windows = open("../data/windows.txt").read().decode('ascii', errors="replace")
-raw_keyfreq = open("../data/keyfreq.txt").read().decode('ascii', errors="replace")
+cwd = os.getcwd()
+
+raw_windows = open("ulogme/data/windows.txt").read().decode('ascii', errors="replace")
+raw_keyfreq = open("ulogme/data/keyfreq.txt").read().decode('ascii', errors="replace")
 
 raw_windows = raw_windows.split('\n')
 raw_keyfreq = raw_keyfreq.split('\n')
@@ -24,7 +26,6 @@ for line in raw_windows:
 for line in raw_keyfreq:
     line = line[18:]
     keyfreq.append(line)
-
 
 instructions = []
 current_window = 0
@@ -43,6 +44,7 @@ while (current_window < len(windows)):
 
     instructions.append(set_of_instructions)
     current_window = current_window + current_window_number
+
 
 
 # build the html element to append
@@ -118,7 +120,7 @@ text = '''
 <!-- Cover -->
 <div id="cover" style="page-break-before: always">
   <h1>User Manual</h1>
-  <h5>A comprehensive guide to '''+user+'''</h5>
+  <h5>A comprehensive guide ''' + user + '''</h5>
   <p>Version 1.0.8 </p>
 
   <div id="copyright">
@@ -156,7 +158,7 @@ text = '''
 
   <div class="icons">
     <img class="icon" src="./imgs/user.png" />
-    <p> User ''' + user + ''' x1 </p>
+    <p> User ''' + user +'''</p>
   </div>
 </div>
 
@@ -276,4 +278,5 @@ css = '''
 }
 '''
 
-HTML(string=text, base_url='file:///Users/cristobalvalenzuela/Dropbox/itp/spring2017/avant_garde/work/final/manual/usermanual/imgs').write_pdf('userusermanual.pdf', stylesheets=[CSS(string=css)])
+# create the document
+HTML(string=text, base_url='file://' + cwd + '/imgs').write_pdf(user+'manual.pdf', stylesheets=[CSS(string=css)])
