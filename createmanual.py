@@ -8,8 +8,8 @@ import os
 user = str(getpass.getuser())
 cwd = os.getcwd()
 
-raw_windows = open("ulogme-master/data/windows.txt").read().decode('ascii', errors="replace")
-raw_keyfreq = open("ulogme-master/data/keyfreq.txt").read().decode('ascii', errors="replace")
+raw_windows = open("ulogme-master/logs/windows.txt").read().decode('ascii', errors="replace")
+raw_keyfreq = open("ulogme-master/logs/keyfreq.txt").read().decode('ascii', errors="replace")
 
 raw_windows = raw_windows.split('\n')
 raw_keyfreq = raw_keyfreq.split('\n')
