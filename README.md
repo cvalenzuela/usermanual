@@ -6,7 +6,7 @@
 
 ### What?
 --------------
-This script generate a pdf file with a set of instructions detailing your daily computer activity in a series of steps. A manual of yourself so your computer can start figuring out how to understand you.
+This script generates a pdf file with a set of instructions detailing your daily computer activity in a series of steps. A manual of yourself so your computer can start figuring out how to understand you.
 
 
 ### Create your own Manual
