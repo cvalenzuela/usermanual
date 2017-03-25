@@ -30,7 +30,7 @@ Instructions for OSX:
 [4] Whenever you want to create your personal manual:
   - Stop ulogme
   - Since ulogme will create a new file everytime it is run, go inside the `logs/` folder, and change the name of the `keyfreq_1488801600.txt` file to `keyfreq.txt` and `window_1488801600.txt` to `windows.txt`. Were the number `1488801600` will be different each time.
-  - Run `python createmanual.py`.
+  - Run `python createmanual.py` inside the usermanual folder.
 
 ### Inspiration
 --------------

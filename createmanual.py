@@ -279,4 +279,5 @@ css = '''
 '''
 
 # create the document
+print 'Your manual is ready!'
 HTML(string=text, base_url='file://' + cwd + '/imgs').write_pdf(user+'manual.pdf', stylesheets=[CSS(string=css)])
