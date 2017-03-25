@@ -22,7 +22,7 @@ Instructions for OSX:
   - If you don't have brew, install it first: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 [3] This project uses [ulogme](https://github.com/karpathy/ulogme) to load your data. Install [ulogme](https://github.com/karpathy/ulogme) and keep it running as long as you want. As detailed in its repo:
-  - Download and save it in the same folder: `https://github.com/karpathy/ulogme/archive/master.zip `
+  - [Download ulogme](https://github.com/karpathy/ulogme/archive/master.zip) and save it in the same folder.
   - Unzip it, cd inside the folder and run `./ulogme.sh`
   - This will create a folder `logs/` with your keystroke frequency and your active windows activity. It will keep running until you end the process with: `ctrl+c`
   - If you have any issues with this, take a look at the [ulogme repo](https://github.com/karpathy/ulogme)
