@@ -5,12 +5,12 @@
 <p style="text-align:center;font-size:10px;">[Benjamin Patterson. Questionnaire from Flux Year Box 2. c.1968]</p>
 
 ### What?
---------------
+
 This script generates a pdf file with a set of instructions detailing your daily computer activity in a series of steps. A manual of yourself so your computer can start figuring out how to understand you.
 
 
 ### Create your own Manual
---------------
+
 Instructions for OSX:
 
 [1] Clone or download this repo:
@@ -33,7 +33,7 @@ Instructions for OSX:
   - Run `python createmanual.py` inside the usermanual folder.
 
 ### Inspiration
---------------
+
 - [Flux Year Box](https://www.moma.org/interactives/exhibitions/2011/fluxus_editions/category_works/fluxyearbox2/)
 - [Grapefruit - Yoko Ono](https://en.wikipedia.org/wiki/Grapefruit_(book))
 - [“This is a portrait of Iris Clert if I say so” - Robert Rauchenberg](http://www.rauschenbergfoundation.org/art/artwork/portrait-iris-clert-if-i-say-so)
@@ -41,5 +41,5 @@ Instructions for OSX:
 - Canon Rebel T3i Manual
 
 ### Demo
---------------
+
 [Demo](demo/userusermanual.pdf)
